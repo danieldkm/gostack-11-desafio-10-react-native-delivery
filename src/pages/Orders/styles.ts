@@ -6,7 +6,7 @@ interface Product {
   name: string;
   description: string;
   price: number;
-  formattedValue: number;
+  formattedPrice: string;
   thumbnail_url: string;
 }
 
@@ -44,7 +44,7 @@ export const FoodList = styled(FlatList as new () => FlatList<Product>)`
   margin-top: 16px;
 `;
 
-export const Food = styled.TouchableOpacity`
+export const Foodi = styled.TouchableOpacity`
   display: flex;
   flex-direction: row;
   align-items: center;
